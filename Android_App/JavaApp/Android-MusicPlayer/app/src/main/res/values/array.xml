@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array">
+        <item>발라드</item>
+        <item>댄스/팝</item>
+        <item>트로트</item>
+        <item>랩/힙합</item>
+        <item>OST</item>
+    </string-array>
+</resources>
