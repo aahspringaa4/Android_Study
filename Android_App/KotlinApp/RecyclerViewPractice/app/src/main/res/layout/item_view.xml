@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#CFCDCD"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="이름 : 로키">
+            </TextView>
+            <TextView
+                android:id="@+id/have"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="귀여운 안드로이드">
+            </TextView>
+            <TextView
+                android:id="@+id/talent"
+                android:layout_width="120dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="특기 : 잠자기">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
